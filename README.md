@@ -14,6 +14,7 @@ Create an application where user supplies images. If a dog is detected in the im
 <li>Step 5: Write the Algorithm</li>
 <li>Step 6: Test the Algorithm</li>
 </ul>
+
 # Libraries Used
 <ul>
   <li>Numpy </li>
