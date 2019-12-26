@@ -29,4 +29,5 @@ Create an application where user supplies images. If a dog is detected in the im
  Load data using glob and numpy
  
  ## Step 1 - Detecting human faces
-  
+<p> OpenCV's implementation of Haar feature-based cascade classifiers to detect human faces in images. 
+</p>
