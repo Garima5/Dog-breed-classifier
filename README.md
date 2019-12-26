@@ -16,7 +16,6 @@ Step 6: Test the Algorithm
 # Libraries Used
 <ul>
   <li>Numpy </li>
-  <li> </li>
   <li>Pytorch </li>
   <li>Opencv</li>
   <li>matplotlib</li>
