@@ -22,6 +22,7 @@ Create an application where user supplies images. If a dog is detected in the im
   <li>Pytorch </li>
   <li>Opencv</li>
   <li>matplotlib</li>
+  <li>PIL - The Python Imaging Library adds image processing capabilities to your Python interpreter.</li>
   
   </ul>
   
