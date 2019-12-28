@@ -38,7 +38,14 @@ Create an application where user supplies images. If a dog is detected in the im
   <li>In the code, faces is a numpy array of detected faces, where each row corresponds to a detected face. Each detected face is a 1D array with four entries that specifies the bounding box of the detected face. The first two entries in the array (extracted in the above code as x and y) specify the horizontal and vertical positions of the top left corner of the bounding box. The last two entries in the array (extracted here as w and h) specify the width and height of the box.</li>
   </ol>
   <br>  
- ## Challenges undertaken to create the CNN from scratch to classify dog breed classifier
+  
+## Step 2 - Detecting dogs
+ Using transforms from Pytorch's functionalities and transfer learning trough VGG16 model, find if a dog is detected in the image or not. The function gives the index that has the probability among all the classes. Since the indexes between 151 and 268 correspond to dog breeds, hence if the maximum index returned follows in this range, the images contains a dog.
+
+## Step 3 - reate a CNN to Classify Dog Breeds (from Scratch)
+Code a convulation neural network to classify dog breeds from scratch.
+
+## Challenges undertaken to create the CNN from scratch to classify dog breed classifier
  <ol>
   <li>Code a CNN from scratch, without using transfer learning and must attain a test accuracy of at least 10%</li>
   <li>The task of assigning breed to dogs from images is considered exceptionally challenging. To illustrate, consider that even a human would have trouble distinguishing between a Brittany and a Welsh Springer Spaniel.</li>
