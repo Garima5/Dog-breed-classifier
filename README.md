@@ -41,7 +41,7 @@ Create an application where user supplies images. If a dog is detected in the im
 ## Step 2 - Detecting dogs
  Using transforms from Pytorch's functionalities and transfer learning trough VGG16 model, find if a dog is detected in the image or not. The function gives the index that has the probability among all the classes. Since the indexes between 151 and 268 correspond to dog breeds, hence if the maximum index returned follows in this range, the images contains a dog.
 
-## Step 3 - reate a CNN to Classify Dog Breeds (from Scratch)
+## Step 3 - Create a CNN to Classify Dog Breeds (from Scratch)
 Code a convulation neural network to classify dog breeds from scratch.
 
 ### Challenges undertaken to create the CNN from scratch to classify dog breed classifier
@@ -50,3 +50,6 @@ Code a convulation neural network to classify dog breeds from scratch.
   <li>The task of assigning breed to dogs from images is considered exceptionally challenging. To illustrate, consider that even a human would have trouble distinguishing between a Brittany and a Welsh Springer Spaniel.</li>
 <li>Similarly, labradors come in yellow, chocolate, and black. My algorithm will have to conquer this high intra-class variation to determine how to classify all of these different shades as the same breed.</li>
 </ol>
+
+## Step 4 - Create a CNN to Classify Dog Breeds (using Transfer Learning)
+Used transfer learning from VGG16 model to classify dog breeds and obtained accuracy> 60%
